@@ -41,3 +41,5 @@ RUN ln -s /qira/qira /usr/local/bin/qira
 WORKDIR /
 
 COPY qira_starter /qira/qira
+
+RUN chmod uog+x /qira/qira
