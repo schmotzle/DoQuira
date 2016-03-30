@@ -17,9 +17,9 @@ RUN mkdir tracers/qemu
 
 WORKDIR /qira/tracers/qemu
 
-RUN wget http://wiki.qemu-project.org/download/qemu-2.1.3.tar.bz2
-RUN tar xf qemu-2.1.3.tar.bz2
-RUN ln -s qemu-2.1.3 qemu-latest
+RUN wget http://wiki.qemu-project.org/download/qemu-2.5.1.tar.bz2
+RUN tar xf qemu-2.5.1.tar.bz2
+RUN ln -s qemu-2.5.1 qemu-latest
 
 RUN ln -s qemu-latest/arm-linux-user/qemu-arm qira-arm
 RUN ln -s qemu-latest/i386-linux-user/qemu-i386 qira-i386
